@@ -1,15 +1,19 @@
 const express = require("express");
+const Events = require("../models/events");
+const {
+  createEvent,
+  getEvent,
+  getEvents,
+  deleteEvent,
+  updateEvent,
+} = require("../controller/eventController");
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.json({ events: "my events" });
-});
-router.get("/:id", (req, res) => {
-  res.json({ events: "get a single workout" });
-});
+router.get("/", getEvents);
+router.get("/:id", getEvent);
 
-router.post("/", (req, res) => {
-  res.json({ events: "my events asdf" });
-});
+router.post("/", createEvent);
+router.delete("/:id", deleteEvent);
+router.patch("/:id", updateEvent);
 
 module.exports = router;
