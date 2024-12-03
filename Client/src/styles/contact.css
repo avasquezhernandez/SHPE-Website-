@@ -1,0 +1,63 @@
+.exec-container {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+.alex , .lucas , .gabbi ,.nicole ,.diana , .miranda ,.angela,.moises,.melita{
+  margin-top: 3vh;
+  margin-right: 2vh;
+  border-radius: 50%;
+  height: 20vh;
+  width: 20vh;
+ 
+}
+
+
+
+
+.president,.treasuer,.IVP,.EVP,.student-advisor,.sec,.comm-serv,.event-coordinator
+{
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  height: 30vh;
+  width: 100%;
+}
+
+.mission-pres,.mission-IVP,.mission-EVP,.mission-sec,.mission-coor,.mission-advisor,.mission-comm,.mission-treasure {
+  opacity: 1;
+  text-align: center;
+  background-color: #f0f0f081;
+  border: 4px solid black;
+  margin-bottom: 10vh;
+  height: 25vh;
+  width: 100%;
+  transform:translateX(100%) ;
+}
+.mission-active-pres{
+  opacity: 1;
+  text-align: center;
+  background-color: #f0f0f081;
+  border: 4px solid black;
+  margin-bottom: 10vh;
+  height: 25vh;
+  width: 100%;
+  transform:translateX(0%) ;
+  transition: transform 0.3s ease ;
+  
+  
+}
+
+
+.our-mission-pres {
+  font-size: 2vh;
+  font-family: sans-serif;
+}
+
+
+
+
+   
