@@ -1,27 +1,11 @@
-import FullCalendar from "@fullcalendar/react";
-import dayGridPlugin from "@fullcalendar/daygrid";
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+
 
 export default function Calendar() {
-  const [events, setEvent] = useState([]);
-  useEffect(() => {
-    axios
-      .get("/api/event")
-      .then((response) => {
-        setEvent(response.data);
-      })
-      .catch((err) => {
-        console.error("cannot get items:", err);
-      });
-  }, []);
+
+
   return (
-    <div className="Calendar">
-      <FullCalendar
-        plugins={[dayGridPlugin]}
-        initialView="dayGridMonth"
-        events={events}
-      />
-    </div>
-  );
+    <iframe src="https://outlook.office365.com/owa/calendar/f8241a43c9054867871293ed9595feca@wustl.edu/9f1b50bdd6934c41977034651bbb2e7b2332332838884438037/calendar.html" className="Calendar">
+
+    </iframe>
+  )
 }

@@ -155,6 +155,7 @@ body {
 }
 
 .Calendar {
+  height: 100vh;
   width: 75vw;
   margin-top: 20vh;
   margin-left: 20vh;
@@ -163,7 +164,7 @@ body {
 
 .spoint {
   height : 80vh;
-  width: 70% ;
+  width: 34vw ;
   margin-bottom: 15vh;
   margin-left: 20vh;
 }
