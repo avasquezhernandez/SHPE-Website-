@@ -1,0 +1,242 @@
+.fa {
+  display: flex;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+}
+.SHPE-email:link {
+  color: white;
+}
+
+.link-footer a {
+
+  color: white;
+  text-decoration: none;
+  margin-left: 30%;
+ 
+  
+
+}
+.link-footer li {
+  margin-bottom: 5vh;
+
+}
+
+.link-footer a:hover{
+
+  color: #ffcc00;
+}
+
+
+.newsletter-footer{
+  margin-top: 3vh;
+  margin-left: 8vh;
+  width: 150vh;
+  
+}
+.newsletter-footer button {
+  margin-left: 20vh;
+  margin-top: 2vh;
+  padding: 20px;
+  border-radius: 10px;
+}
+.newsletter-footer button {
+  margin-left: 8vh;
+  margin-top: 2vh;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffcc00;
+}
+
+.newsletter-footer button:hover {
+  transform: scale(0.9);
+    box-shadow:  10px 10px 10px 10px #f34b0480;
+ 
+}
+
+.newsletter-trans{
+    display: none;
+}
+.newsletter-trans-active{
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  width: 100vw;
+  height: 100vh;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+.new-line1 {
+  display: block;
+  position: relative;
+  left: 22vw;
+  width: 25px;
+  height: 3px;
+  background-color: #A51417;
+  margin: 5px;
+  z-index: 502;
+  transform: rotate(-45deg) translate(-6px, 6px);
+  
+}
+
+.new-line3 {
+  display: block;
+  position: relative;
+  left: 22vw;
+  width: 25px;
+  height: 3px;
+  background-color: #A51417;
+  margin: 5px;
+  z-index: 502;
+  transform: rotate(45deg) translate(0px, 0px);
+ 
+}
+
+.newsletter-form{
+  display: none;
+
+
+}
+
+.newsletter-form-active {
+  display: block;
+  position: fixed;
+  top: 5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 501;
+  width: 90vw;
+  max-width: 400px;
+  background-color: #fffbea;              /* soft gold/cream */
+  border: 4px solid #a51417;              /* SHPE red */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  padding: 2rem;
+  color: #1a1110;                          /* dark text */
+  font-family: sans-serif;
+}
+/* Email input */
+.shpe-email {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid #A51417;            /* SHPE red */
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #1a1110;                        /* dark text */
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.shpe-email::placeholder {
+  color: #888;                           /* soft grey */
+}
+.shpe-email:focus {
+  outline: none;
+  border-color: #FFCC00;                 /* gold on focus */
+  box-shadow: 0 0 0 3px rgba(255, 204, 0, 0.3);
+}
+
+/* Submit button */
+.subscribe {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #A51417 40%, #FFCC00);
+  background-size: 200% auto;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-position 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+.subscribe:hover {
+  background-position: right center;     /* shift gradient */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.subscribe:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+
+
+.link-footer{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 150vh;
+
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  border-image: linear-gradient(to bottom, #ffcc00, #ff9900) 1;
+  
+}
+
+
+.contactus-footer{
+  margin-top: 3vh;
+  width: 150vh;
+} 
+
+.newsletter-page{
+  position: absolute;
+  z-index: 500;
+  opacity: 40%;
+  height: 100%;
+  width: 100%;
+}
+
+.package{
+  position: relative;
+  top: 12vh;
+  left: 15vw;
+  margin-bottom: 20vh;
+  height: 100vh;
+  width: 70vw;
+}
+
+.foot {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  bottom: 0%;
+  margin: auto;
+  display: flex;
+  
+}
+.contactus-footer{
+  width: 150vh;
+
+
+}
+.foot p {
+  color: white;
+  font-size: 20px;
+}

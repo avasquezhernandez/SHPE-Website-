@@ -1,0 +1,170 @@
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20vh auto 10vh;
+  padding-top: 10vh;
+  width: 80vw;
+  height: 100vh;
+  overflow: hidden;
+
+  /* deep, dark gradient */
+ background: linear-gradient(135deg, #333333 0%, #1A1110 100%);
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+}
+
+.carousel img {
+  position: absolute;
+  margin-top: 5vh;
+  height: 85vh;
+  width: 70vw;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 1rem;
+}
+
+.carousel img.appear {
+  opacity: 1;
+}
+
+.forward,
+.backward {
+  position: absolute;
+  width: 4vw;
+    height: 6vh;
+  z-index: 2;
+  border-radius: 50%;
+  font-size: 20px;
+  padding-right: 12px;
+  border: none;
+  background-color: #6b0909;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.forward:hover,
+.backward:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #6b0909;
+}
+.forward {
+  right: 7px;
+}
+.backward {
+  left: 7px;
+}
+.photo-title {
+  position: absolute;
+  top: 23vh;
+  left: 32vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;              
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #eeeded 0%, #eec5c6e7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  
+  z-index: 2;
+}
+
+
+
+@media screen and (max-width: 738px) {
+  .carousel img {
+  position: absolute;
+  margin-top: 5vh;
+  height: 52vh;
+  width: 45vw;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 1rem;
+}
+
+  .carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20vh auto 10vh;
+  padding-top: 10vh;
+  width: 60vw;
+  height: 60vh;
+  overflow: hidden;
+
+  
+ background: linear-gradient(135deg, #333333 0%, #1A1110 100%);
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+}
+  .photo-title {
+    position: absolute;
+    top: 25vh;
+  left: 32vw;
+    background-color: white;
+    letter-spacing: 2px;
+    font-size: 2vh;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background: linear-gradient(90deg, #CE1126 0%, #A51417 100%);
+    animation: gradientAnimation 2s linear infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    border-radius: 10px;
+    z-index: 2;
+    text-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .carousel img {
+  position: absolute;
+  margin-top: 5vh;
+  height: 52vh;
+  width: 45vw;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 1rem;
+}
+
+  .carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20vh auto 10vh;
+  padding-top: 10vh;
+  width: 60vw;
+  height: 60vh;
+  overflow: hidden;
+
+  /* deep, dark gradient */
+ background: linear-gradient(135deg, #333333 0%, #1A1110 100%);
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+}
+  .photo-title {
+    position: absolute;
+    top: 25vh;
+  left: 30vw;
+    background-color: white;
+    letter-spacing: 2px;
+    font-size: 2vh;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: linear-gradient(90deg, #eeeded 0%, #eec5c6e7 100%);
+    animation: gradientAnimation 2s linear infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    border-radius: 10px;
+    z-index: 2;
+    text-wrap: nowrap;
+  }
+}
