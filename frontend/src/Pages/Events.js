@@ -4,7 +4,7 @@ import Calendar from "../components/calendar";
 import Footer from "../components/footer";
 import React, { useEffect, useState } from "react";
 import Modal from "react-modal";
-import SHPEPoints from "../components/spoints";
+
 
 Modal.setAppElement("#root");
 
@@ -32,7 +32,6 @@ export default function Events() {
     <>
       <Nav />
       <Calendar />
-      <SHPEPoints/>
       <Footer />
     </>
   );
