@@ -10,27 +10,25 @@ export default function Calendar() {
         <div className="event-point-container">
         <div className="event-container">
         <div className="event-card">
-          <h3 className="event-title">Upcoming Event</h3>
-          <p className="event-date">Date: March 20, 2025</p>
+          <h3 className="event-title">SHPE National Convention</h3>
+         
           <p className="event-description">
-            Join us for the SHPE National Convention. Networking, workshops, and more!
+            Nation’s largest Hispanic STEM convention for networking, careers, and empowerment!
           </p>
           <button className="event-button">Learn More</button>
         </div>
         <div className="event-card">
-          <h3 className="event-title">Upcoming Event</h3>
-          <p className="event-date">Date: March 20, 2025</p>
+          <h3 className="event-title">Noche de Ciencias</h3>
           <p className="event-description">
-            Join us for the SHPE National Convention. Networking, workshops, and more!
+            STEM outreach event inspiring Hispanic youth through science, technology, and education!
           </p>
           <button className="event-button">Learn More</button>
           
         </div>
         <div className="event-card">
-          <h3 className="event-title">Upcoming Event</h3>
-          <p className="event-date">Date: March 20, 2025</p>
+          <h3 className="event-title">Half & Half Workshop</h3>
           <p className="event-description">
-            Join us for the SHPE National Convention. Networking, workshops, and more!
+            Half career workshop, half dance workshop, integrating professional growth with some groovy moves!
           </p>
           <button className="event-button">Learn More</button>
           
